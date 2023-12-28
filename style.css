@@ -187,5 +187,10 @@ font-style: normal;
 font-weight: 100;
 line-height: 2.5rem; /* 137.931% */
 margin-left: 2rem;
+}
 
+footer div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 3rem;
 }
