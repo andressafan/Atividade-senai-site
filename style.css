@@ -194,3 +194,85 @@ footer div{
     margin-bottom: 1rem;
     gap: 3rem;
 }
+
+/*               MEDIA QUERY         */
+
+@media screen and (max-width: 600px) {
+    html{
+        margin: 0%;
+        padding: 0%;
+    }
+    body {
+        font-size: 1rem;
+        margin: auto;
+
+}
+
+    .carousel-inner img{
+        width: 22.5rem;
+height: 15.0625rem;
+    }
+
+    .cat svg{
+        width: 4rem;
+height: 4rem;
+    }
+
+    .cat p{
+        margin-top: .5rem;
+        color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 0rem; /* 0% */
+    }
+    .cat{
+        justify-content: center;
+        margin: 0%;
+        gap: 0.5rem;
+    }
+
+    #categorias{
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    nav{
+        margin: 0;
+    }
+
+    footer div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+
+    footer .container-fluid{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .carousel-item .d-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .carousel-item .d-flex button{
+        margin-top: 1rem;
+    }
+
+    .carousel-item .d-flex .ms-5{
+        position: relative;
+        bottom: 10rem;
+    }
+}
