@@ -307,10 +307,18 @@ line-height: 0rem; /* 0% */
 
 /*                       N A V                    */
 
-
-
-
 .owl-item{
     width: 260px !important;
 }
 
+nav p a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+nav .d-flex{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
