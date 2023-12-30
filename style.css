@@ -322,3 +322,7 @@ nav .d-flex{
     align-items: center;
     justify-content: center;
 }
+
+.no-js .owl-carousel,.owl-carousel.owl-loaded {
+    height: 500px;
+}
