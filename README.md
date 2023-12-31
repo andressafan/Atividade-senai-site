@@ -19,5 +19,9 @@
 - ``CSS``
 - [``Bootstrap``](https://getbootstrap.com/)
 - [``OwlCarousel``](https://owlcarousel2.github.io/OwlCarousel2/)
-  
+
+## Protótipo Design
+- [``Baixa Fidelidade``]([https://getbootstrap.com/](https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=12-834&mode=design&t=8TrHcTk62MVrzpQc-0)https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=12-834&mode=design&t=8TrHcTk62MVrzpQc-0)
+- [``Alta Fidelidade``]([https://owlcarousel2.github.io/OwlCarousel2/](https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=0-1&mode=design&t=8TrHcTk62MVrzpQc-0)https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=0-1&mode=design&t=8TrHcTk62MVrzpQc-0)
+
 
