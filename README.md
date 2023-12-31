@@ -11,4 +11,13 @@
   - [x] CSS
   - [x] JavaScript
   - [x] Bootstrap
+     
+## ✔️ Tecnologias Utilizadas
+
+- ``HTML``
+- ``JavaScript``
+- ``CSS``
+- ``Bootstrap``(https://getbootstrap.com/)
+- ``OwlCarousel``(https://owlcarousel2.github.io/OwlCarousel2/)
+  
 
