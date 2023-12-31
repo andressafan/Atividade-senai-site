@@ -349,8 +349,6 @@ nav .d-flex{
     color: white;
 }
 
-
-
 #section-cadastro #section-login{
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -361,11 +359,6 @@ nav .d-flex{
     font-weight: 100;
     font-size: 1.4rem;
 }
-
-/* desaparece */
-
-
-/* desaparece */
 
 #login-id p{
     font-family: 'Montserrat', sans-serif;
@@ -378,6 +371,7 @@ nav .d-flex{
     font-size: 1.4rem;
 }
 
+
 .main-login{
     display: flex;
     flex-direction: column;
@@ -386,9 +380,18 @@ nav .d-flex{
     color: white;
 }
 
-form button{
+form button, input{
     margin-top: 1rem;
 }
+
+form label{
+    margin-top: .5rem;
+}
+
+#form-cadastrar {
+    display: none;
+}
+
 
 /*           V O L T A R  A O  T O P O         */
 
@@ -417,6 +420,7 @@ form button{
     position:  fixed ; 
     bottom :  5px; 
     right:  50px;
+    z-index: 9999;
 }
 
 .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
@@ -425,9 +429,5 @@ form button{
     border-color: white;
 }
 
-#form-cadastrar {
-    padding: 50px;
-    display: none;
-}
 
 
