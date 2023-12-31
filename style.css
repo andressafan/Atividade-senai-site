@@ -326,3 +326,88 @@ nav .d-flex{
 .no-js .owl-carousel,.owl-carousel.owl-loaded {
     height: 500px;
 }
+
+
+/* L O G I N */
+.login{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+#emailHelp{
+    color: white;
+}
+
+#login-id{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+/* desaparece */
+
+#cadastro{
+ /*display: none;*/
+}
+
+/* desaparece */
+
+#login-id p{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+form button{
+    margin-top: 1rem;
+}
+
+/*           V O L T A R  A O  T O P O         */
+
+
+#voltar-topo :before {
+    color: white;
+    border-color: white;
+    }
+#voltar-topo :after {
+    color: rgb(0, 0, 0);
+    border-color: white;
+    }
+.btn:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    color: black;
+}
+
+.btn-outline-primary{
+    color: white;
+    border-color: white ;
+}
+
+.botao-voltar-ao-topo{
+    position:  fixed ; 
+    bottom :  5px; 
+    right:  50px;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+

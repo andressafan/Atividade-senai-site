@@ -1,14 +1,15 @@
-$(document).ready(function(){
-  $('.loop').owlCarousel({
+$(document).ready(function() {
+    $('.loop').owlCarousel({
       center: true,
       items: 2,
       loop: true,
       margin: 0,
       responsive: {
-          600: {
-              items: 5
-          }
+        600: {
+          items: 5
+        }
       }
+    });
+  
+  
   });
-});
-

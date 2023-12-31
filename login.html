@@ -12,7 +12,7 @@
       <header>
         <nav class="navbar navbar-expand-sm navbarBg">
             <div class="container-fluid">
-                <a href="" class="logo navbar-brand d-flex ms-5">
+                <a href="index.html" class="logo navbar-brand d-flex ms-5">
                     <img src="public/images/categoria-img-285202106091518441.png" alt="GameSphere">
                     <div id="gamesphere"><h1>GameSphere</h1></div>
                 </a>
@@ -37,9 +37,74 @@
             </div>
         </nav>
       </header>
-      <div>
+      <div class="container-fluid" id="#cnter">
+        <div  id="login-id">
+        <h2>Login</h2>
+        </div>
+
+        <div class="login">
+          
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nós nunca compartilharemos seu e-mail com mais ninguém.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Verifique-me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <div id="botao-cadastrar">
+              <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+          </div>
+          </form>
+      
+        </div>
+
+        <section id="cadastro">
+          <div  id="login-id" class="my-3">
+            <h2>Cadastre-se</h2>
+          </div>
+          <div  id="login-id" class="my-3">
+            <p>Informe seus dados para criar sua conta!</p>
+          </div>
+          
+          <div class="login my-3">
+            
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Usuário</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>          
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+          </div>
+        </section>
+          
+
         
+
       </div>
+
+    <div class="botao-voltar-ao-topo">
+      <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo</button>
+    </div>
     <script src="bootstrap.js"></script>
+    <script src="jv.js"></script>
+    <script src="voltar-ao-topo.js"></script>
+    
 </body>
 </html>
