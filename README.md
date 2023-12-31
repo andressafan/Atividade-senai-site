@@ -17,7 +17,7 @@
 - ``HTML``
 - ``JavaScript``
 - ``CSS``
-- ``Bootstrap``(https://getbootstrap.com/)
-- ``OwlCarousel``(https://owlcarousel2.github.io/OwlCarousel2/)
+- [``Bootstrap``](https://getbootstrap.com/)
+- [``OwlCarousel``](https://owlcarousel2.github.io/OwlCarousel2/)
   
 
