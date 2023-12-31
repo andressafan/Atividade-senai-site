@@ -37,67 +37,69 @@
             </div>
         </nav>
       </header>
-      <div class="container-fluid" id="#cnter">
-        <div  id="login-id">
-        <h2>Login</h2>
-        </div>
-
-        <div class="login">
-          
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Nós nunca compartilharemos seu e-mail com mais ninguém.</div>
+      <main class="main-login">
+        <section class="section-main" id="section-login">
+            <h1>Login</h1>
+            <div class="d-flex justify-content-center">
+                <form method="post" action="" id="login">
+                    <p>
+                        <label for="usuario">Nome: </label>
+                        <input id="usuario" name="usuario" required="required" type="text"
+                            placeholder="Insira o seu usuário" class="form-control" />
+                    </p>
+                    <p>
+                        <label for="senha">Senha: </label>
+                        <input id="senha" name="senha" required="required" type="password"
+                            placeholder="Insira a sua senha" class="form-control" />
+                    </p>
+                    <p>
+                        <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()" />
+                    </p>
+                    <div id="botao-cadastrar">
+                        <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+                    </div>
+                </form>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Verifique-me</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-            <div id="botao-cadastrar">
-              <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
-          </div>
-          </form>
-      
-        </div>
-
-        <section id="cadastro">
-          <div  id="login-id" class="my-3">
-            <h2>Cadastre-se</h2>
-          </div>
-          <div  id="login-id" class="my-3">
-            <p>Informe seus dados para criar sua conta!</p>
-          </div>
-          
-          <div class="login my-3">
-            
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Usuário</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>          
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <button type="submit" class="btn btn-primary">Cadastrar</button>
-            </form>
-          </div>
         </section>
-          
+<!-- Cadastro -->
+        <section id="section-cadastro">
+            
+            <div id="form-cadastrar">
 
-        
+                <h1>Criar minha conta</h1>
+                <p>Informe os seus dados abaixo para criar sua conta.</p>
 
-      </div>
+                <div class="d-flex-2 justify-content-center">
+                    <form method="post" action="" id="login">
+                        <p>
+                            <label for="usuario">Usuário: </label>
+                            <input id="usuario" name="usuario" required="required" type="text"
+                                placeholder="ex. nome de usuário" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="email">E-mail: </label>
+                            <input id="email" name="email" required="required" type="email"
+                                placeholder="seu@email.com.br" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input id="senha" name="senha" required="required" type="password"
+                                placeholder="mínimo de 6 caracteres" class="form-control" />
+                        </p>
+                        <p>
+                            <input type="button" style="width: 100%;" value="Cadastrar" class="btn btn-primary" id="bt-cadastrar" 
+                                onclick="cadastro()" />
+                        </p>
+                        <div id="botao-logar">
+                            <button type="button" class="btn btn-info">Já possuí conta? Logar-se</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
 
     <div class="botao-voltar-ao-topo">
       <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo</button>
@@ -105,6 +107,7 @@
     <script src="bootstrap.js"></script>
     <script src="jv.js"></script>
     <script src="voltar-ao-topo.js"></script>
+    <script src="owl-carousel-loop.js"></script>
     
 </body>
 </html>

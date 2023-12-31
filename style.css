@@ -329,20 +329,29 @@ nav .d-flex{
 
 
 /* L O G I N */
-.login{
+
+
+#section-login{
+
     display: flex;
-    margin: auto;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     
 }
 
-#emailHelp{
+#section-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
-#login-id{
+
+
+#section-cadastro #section-login{
     font-family: 'Montserrat', sans-serif;
     display: flex;
     margin: auto;
@@ -355,9 +364,6 @@ nav .d-flex{
 
 /* desaparece */
 
-#cadastro{
- /*display: none;*/
-}
 
 /* desaparece */
 
@@ -370,6 +376,14 @@ nav .d-flex{
     color: white;
     font-weight: 100;
     font-size: 1.4rem;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 form button{
@@ -410,4 +424,10 @@ form button{
     background-color: black;
     border-color: white;
 }
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
 
