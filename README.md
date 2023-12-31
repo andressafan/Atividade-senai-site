@@ -25,6 +25,6 @@
 
 ![Baixa Fidelidade - Android Large](https://github.com/andressafan/Atividade-senai-site/assets/80928981/8a00c6dd-d34a-4e01-9f6f-350b27b2b57d)
 
-- ![Alta Fidelidade - Desktop](https://github.com/andressafan/Atividade-senai-site/assets/80928981/bf5e6be4-3331-40e0-a882-849ee4583c06)
-- ![Alta Fidelidade - Android Large](https://github.com/andressafan/Atividade-senai-site/assets/80928981/aed32f1b-ebde-49d0-a3d1-106ff63099bc)
+![Alta Fidelidade - Desktop](https://github.com/andressafan/Atividade-senai-site/assets/80928981/bf5e6be4-3331-40e0-a882-849ee4583c06)
+![Alta Fidelidade - Android Large](https://github.com/andressafan/Atividade-senai-site/assets/80928981/aed32f1b-ebde-49d0-a3d1-106ff63099bc)
 
