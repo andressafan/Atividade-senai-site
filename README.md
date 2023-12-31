@@ -21,7 +21,10 @@
 - [``OwlCarousel``](https://owlcarousel2.github.io/OwlCarousel2/)
 
 ## Protótipo Design
-- [``Baixa Fidelidade``]([https://getbootstrap.com/](https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=12-834&mode=design&t=8TrHcTk62MVrzpQc-0)https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=12-834&mode=design&t=8TrHcTk62MVrzpQc-0)
-- [``Alta Fidelidade``]([https://owlcarousel2.github.io/OwlCarousel2/](https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=0-1&mode=design&t=8TrHcTk62MVrzpQc-0)https://www.figma.com/file/oC7seBWoE25zYz1aPk3Qh1/Site-Senai?type=design&node-id=0-1&mode=design&t=8TrHcTk62MVrzpQc-0)
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoC7seBWoE25zYz1aPk3Qh1%2FSite-Senai%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D8TrHcTk62MVrzpQc-1" allowfullscreen></iframe>
+![Baixa Fidelidade - Desktop (1)](https://github.com/andressafan/Atividade-senai-site/assets/80928981/e8785be5-54a0-4359-b602-b51a7124253d)
+
+![Baixa Fidelidade - Android Large](https://github.com/andressafan/Atividade-senai-site/assets/80928981/8a00c6dd-d34a-4e01-9f6f-350b27b2b57d)
+
+- ![Alta Fidelidade - Desktop](https://github.com/andressafan/Atividade-senai-site/assets/80928981/bf5e6be4-3331-40e0-a882-849ee4583c06)
+- ![Alta Fidelidade - Android Large](https://github.com/andressafan/Atividade-senai-site/assets/80928981/aed32f1b-ebde-49d0-a3d1-106ff63099bc)
 
