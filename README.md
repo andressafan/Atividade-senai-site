@@ -1,5 +1,6 @@
 <h1 align="center"> Atividade SENAI </h1>
 <h2 align="left">Desenvolvendo a home e o login de um site</h2>
+
 ### Exercícios propostos:
 
 - [x] Desenvolvimento de Protótipo (Figma)
