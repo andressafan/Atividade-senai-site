@@ -203,6 +203,14 @@ element.style {
 
 }
 
+.owl-stage{
+    display: flex !important;
+}
+
+.card{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
     .carousel-inner img{
         width: 22.5rem;
 height: 15.0625rem;
