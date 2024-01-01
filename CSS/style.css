@@ -200,16 +200,26 @@ element.style {
     body {
         font-size: 1rem;
         margin: auto;
+        
 
+}
+
+.container-fluid{
+
+    align-items: center;
+        justify-content: center;
 }
 
 .owl-stage{
     display: flex !important;
 }
-
+.owl-stage-outer{
+    height: auto!important;
+}
 .card{
     margin-left: .5rem;
     margin-right: .5rem;
+    height: auto!important;
 }
     .carousel-inner img{
         width: 22.5rem;
@@ -278,7 +288,22 @@ line-height: 0rem; /* 0% */
         position: relative;
         bottom: 12rem;
     }
+    .navbar {
+        display: flex;
 
+    }
+    nav .ms-auto{
+        margin-left: 0% !important;
+    }
+    .navbar-collapse div, p {
+        margin-bottom: .5rem;
+    }
+
+    #inav{
+       display: inline;
+       align-items: baseline;
+       justify-content: start;
+    }
     .navbar button{
         margin: 0%;
     }
@@ -426,6 +451,10 @@ form label{
     color: white;
     background-color: black;
     border-color: white;
+}
+
+.owl-stage{
+    display: flex !important;
 }
 
 
